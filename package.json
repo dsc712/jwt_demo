@@ -1,0 +1,19 @@
+{
+  "name": "jwt_demo",
+  "version": "1.0.0",
+  "description": "created to learn jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app:* nodemon index.js"
+  },
+  "author": "dsc712",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
